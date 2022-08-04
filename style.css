@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.rows {
+    display: grid;
+    grid-template-rows: 100px 34px 400px 8fr 2fr;
+    row-gap: 10px;
+}
+.row1 {
+    color:#ffffff;
+    margin: 0px 100px 0px 100px;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    background-color: #003f5d;
+
+}
+.row1_col1 {
+    height: 100px;
+    display: block;
+    grid-column: 1 / 2;
+    background-image: url(https://www.auf.org.uy/imagenes/img_contenido/club_club/a/nautncixajwban.png);
+    background-size: cover;
+}
+.row1_col2 {
+    height: 100px;
+    display: flex;
+    flex-direction:  column;
+    grid-column: 2 / 3;
+}
+.row1_col2 h1 {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+.row1_col2 p {
+    display: block;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+.row1_col3 {
+    height: 100px;
+    display: flexbox;
+    grid-column: 3 / 4;
+}
+.button {
+    display: inline-block;
+    align-items: flex-end;
+    color: white;
+    background-color: #003f5d;
+    padding: 2px;
+    text-decoration: none;
+    border: 1px  solid white
+    
+}
+.button:hover {
+    cursor: pointer;
+}
+
+/* arranca la fila 2 */
+
+.row2 {
+    margin: 0px 100px;
+}
+.row2 ul {
+    background-color: #c51a1b;
+    list-style-type: none;
+    border-radius: 0px;
+    padding: 5px;
+    height: 24px;
+}
+.row2 li {
+    display: inline;
+}
+.row2 a {
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    text-align: center;
+}
+.row2 input {
+    align-items: flex-end;
+}
+.row2 a:hover {
+    background-color: #9e2020;
+}
+
+/*arranca la fila 3*/
+
+.row3 {
+    margin: 0px 100px;
+}
+.row3 img {
+    width: 100%;
+    display: flex;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* arranca la fila 3*/
+
+.row4 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin: 0px 100px;
+    column-gap: 10px;
+}
+.row4_col1 {
+    display: grid;
+    grid-template-rows: 40px 200px 40px 200px;
+}
+.row4_col1_div1 {
+    background-color: #c51a1b;
+    color: #ffffff;
+}
+
+.row4_col2 {
+
+}
